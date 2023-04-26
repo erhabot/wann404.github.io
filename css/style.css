@@ -58,6 +58,14 @@ body {
     border-radius: 50%;
     pointer-events: none;
 }
+.third-photo {
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin: 35px auto 25px;
+    border-radius: 50%;
+    pointer-events: none;
+}
 .text-box {
     margin: 0px 100px 0px 50px;
 }

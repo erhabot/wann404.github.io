@@ -59,11 +59,10 @@ body {
     pointer-events: none;
 }
 .third-photo {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     display: block;
     margin: 35px auto 25px;
-    border-radius: 50%;
     pointer-events: none;
 }
 .text-box {

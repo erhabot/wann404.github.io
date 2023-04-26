@@ -59,8 +59,8 @@ body {
     pointer-events: none;
 }
 .third-photo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display: block;
     margin: 35px auto 25px;
 }

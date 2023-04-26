@@ -1,0 +1,128 @@
+/* Style Setting */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('./day-night.css');
+
+:root {
+    --bgColor: rgb(177, 194, 209);
+    --mainColor: rgb(142, 153, 161);
+    --textColor: #222222;
+}
+body {
+    background-color: var(--bgColor);
+    font-family: 'Roboto', sans-serif;
+}
+
+[data-theme=dark]{
+    --bgColor: #1F212B;
+    --mainColor: #10161D;
+    --textColor: aliceblue;
+}
+
+/* Header */
+.head-page {
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    height: 78px;
+    border-radius: 0.5em;
+}
+.head-logo {
+    padding: 26px 5px 20px 5px;
+    float: left;
+    font-size: 20px;
+}
+.main-photo {
+    width: 56px;
+    height: 56px;
+    display: block;
+    padding: 10px 17px 10px 17px;
+    border-radius: 50%;
+    pointer-events: none;
+    float: left;
+}
+
+/* bot-section */
+.bot-section {
+    max-width: 650px;
+    margin: 20px 20px;
+    padding: 10px 25px;
+    width: auto;
+    background-color: var(--mainColor);
+    border-radius: 0.5em;
+    color: var(--textColor);
+}
+.second-photo {
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin: 35px auto 25px;
+    border-radius: 50%;
+    pointer-events: none;
+}
+.text-box {
+    margin: 0px 100px 0px 50px;
+}
+#title {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+#text {
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.btn {
+    width: 120px;
+    height: 30px;
+    padding: 3px;
+    margin: auto;
+    color: var(--textColor);
+    display: flex;
+    text-decoration: none;
+    border-radius: 4px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    line-height: 1.25;
+    font-weight: bold;
+}
+.whatsapp {
+    background-color: #01e675;
+}
+.fa-brands {
+    margin-right: 5px;
+    margin-left: 0px;
+}
+
+/* donation-section */
+.donation-section {
+    max-width: 650px;
+    margin: 20px 20px;
+    padding: 10px 25px;
+    width: auto;
+    background-color: var(--mainColor);
+    border-radius: 0.5em;
+    color: var(--textColor);
+}
+.donation-section h1 {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.donation-section p {
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+.saweria {
+    background-color: #f1a501;
+    margin-bottom: 5px;
+}
+.trakteer {
+    background-color: #f01f03;
+    margin-bottom: 5px;
+}
+.kofi {
+    background-color: #29abe1;
+    margin-bottom: 10px;
+}

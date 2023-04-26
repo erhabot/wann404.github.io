@@ -1,0 +1,36 @@
+@media only screen and (min-width: 920px) {
+    .head-page {
+        width: 845px;
+        margin: auto;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .donation-section {
+        padding: 10px 25px;
+    }
+}
+
+@media only screen and (min-width: 757px) {
+    .container {
+        display: flex;
+        justify-self: center;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        justify-self: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .text-box {
+        margin: 0px 5px;
+    }
+}
